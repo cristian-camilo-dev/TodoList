@@ -1,0 +1,40 @@
+.app-btnAgregar{
+  background-color: #eda300ed;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: var(--fuente-primaria);
+  border-radius: 5px;
+  cursor: pointer;
+  animation: pulse 2s linear infinite;
+  transition: all 0.7s;
+  
+  
+}
+
+.app-btnAgregar:hover{
+  background-color: #f500a6;
+  color: #fff;
+  animation: pulse-small 2s infinite;
+  transform: scale(1.08);
+}
+  
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(38, 42, 53, 0);
+  }
+}
+@keyframes pulse-small {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 6px rgba(38, 42, 53, 0);
+  }
+}
+

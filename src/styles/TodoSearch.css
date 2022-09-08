@@ -1,0 +1,10 @@
+.app-search{
+    width: 90%;
+    padding: 1.2rem;
+    margin: 2.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.708);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+
+}

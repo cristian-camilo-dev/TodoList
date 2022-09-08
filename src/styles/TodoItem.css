@@ -1,0 +1,35 @@
+.app-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  
+
+}
+
+.app-todoText{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(--fuente-primaria);
+}
+
+.TodoItem-p--complete {
+  text-decoration: line-through;
+  
+
+}
+
+
+.app-item .complete{
+  cursor: pointer;
+}
+
+.app-item .delete{
+  cursor: pointer;
+}
